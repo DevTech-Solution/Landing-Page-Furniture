@@ -1,13 +1,32 @@
-/** RESET VALEUR PAR DEFAUT **/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/** MONTSERRAT **/
+/** Bold **/
+@font-face {
+    font-family:"MonserratBold";
+    src: url("./Montserrat/Montserrat-Bold.ttf");
+}
+/** --------------------- **/
+/** POPPINS **/
+/** Medium **/
+@font-face {
+    font-family:"PoppinsMedium";
+    src: url("./Poppins/Poppins-Medium.ttf");
 }
 
-/** FONTS **/
+/** Semi Bold **/
 @font-face {
-    font-family:"";
-    src: url("");
+    font-family:"PoppinsSemiBold";
+    src: url("./Poppins/Poppins-SemiBold.ttf");
 }
-/** --------
+
+/** Bold **/
+@font-face {
+    font-family:"PoppinsBold";
+    src: url("./Poppins/Poppins-Bold.ttf");
+}
+
+/** Regular **/
+@font-face {
+    font-family:"PoppinsRegular";
+    src: url("./Poppins/Poppins-Regular.ttf");
+}
+/** --------------------- **/

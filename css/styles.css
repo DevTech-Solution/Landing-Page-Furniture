@@ -8,10 +8,10 @@
 /** ------- ABSTRACTS ------- **/
 /** ------- GLOBAL ------- **/
 body {
-  background-color: #518ec0;
+  background-color: #81aac2;
 }
 
-/** ------- RESET ------- **/
+/** RESET VALEUR PAR DEFAUT **/
 * {
   margin: 0;
   padding: 0;
