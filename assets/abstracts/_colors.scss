@@ -1,2 +1,32 @@
-/** ------- COLORS ------- **/
-$backgroundTest : #81aac2;
+/** ------- COLOR TEST ------- **/
+$backgroundTest : #000000a2;
+/** --------- COLORS --------- **/
+// Couleurs principales
+// Logo entreprise
+$color-black: #000000;
+// Texte bouton "Buy Now" et "Explore Now"
+ $color-white: #FFFFFF;
+
+// Couleurs background
+// Fond des cartes dans la section Hero Banner
+$bg-card-hero: #FFF3E3;
+
+// Couleurs de texte
+// Texte cartes Hero + titre section 1 + sous-titre carte
+$text-dark: #333333;
+// Description section
+$text-medium: #666666; 
+// Titres autres sections + titre carte + prix
+$text-title-secondary: #3A3A3A;
+// Description carte
+$text-description-card: #898989;
+// Description "Beautiful rooms" + "Furniture"
+$text-description-extra: #616161;
+// Adresse footer + titre catégorie footer
+$text-footer: #9F9F9F;
+
+// Couleurs accent
+// Bouton "Show more" (background) + titre banner
+$accent-gold: #B88E2F;
+// Prix barré
+$price-strikethrough: #B0B0B0;

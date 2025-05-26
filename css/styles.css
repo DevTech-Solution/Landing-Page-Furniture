@@ -1,5 +1,6 @@
 /** ------- ABSTRACTS ------- **/
-/** ------- COLORS ------- **/
+/** ------- COLOR TEST ------- **/
+/** --------- COLORS --------- **/
 /** ------- FUNCTIONS ------- **/
 /** ------- MIXINS ------- **/
 /** ------- PLACEHOLDERS ------- **/
@@ -8,7 +9,7 @@
 /** ------- ABSTRACTS ------- **/
 /** ------- GLOBAL ------- **/
 body {
-  background-color: #81aac2;
+  background-color: rgba(0, 0, 0, 0.6352941176);
 }
 
 /** RESET VALEUR PAR DEFAUT **/
@@ -23,7 +24,11 @@ body {
 /** BUTTONS **/
 /** ------- CARDS ------- **/
 /** ------- PAGE ------- **/
+/** ------- ABSTRACTS ------- **/
+/** ------- HOME ------- **/
 /** ------- THEMES ------- **/
 /** ------- LAYOUT ------- **/
+/** ------- ABSTRACTS ------- **/
+/** ------- HEADER ------- **/
 
 /*# sourceMappingURL=styles.css.map */
