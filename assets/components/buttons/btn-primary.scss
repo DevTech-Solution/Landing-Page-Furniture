@@ -1,0 +1,18 @@
+/** ------- BUTTON PRIMARY ------- **/
+@use'../../abstracts/mixins' as *;
+@use'../../abstracts/colors' as *;
+@use'../../base/typography' as *;
+
+.cta-buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //Import Mixins Btn-primary
+    @include button-primary;
+
+    a{
+        text-decoration: none;
+        color: $color-white;
+        text-transform: uppercase;
+    }
+}

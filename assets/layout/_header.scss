@@ -1,4 +1,62 @@
 /** ------- HEADER ------- **/
-@use'../abstracts/variables' as *;
 @use'../abstracts/mixins' as *;
 @use'../abstracts/colors' as *;
+@use'../base/typography' as *;
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: $bg-header;
+
+    .picture-logo .enterprise-logo{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .picture-logo img{
+        object-fit: cover;
+    }
+
+    .picture-logo p{ 
+        font-family: $MonserratBold;
+        color: $color-black;
+        font-size: $SizeLogo;
+    }
+
+    .picture-logo p::first-letter{
+        text-transform: uppercase;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+
+        ul{
+            display: flex;
+            gap: 4rem;
+            font-size: $NavigationHeaderText;
+            font-family: $PoppinsMedium;
+        }
+
+        li{
+            list-style: none;
+        }
+
+        li::first-letter{
+            text-transform: uppercase;
+        }
+
+        a{
+            text-decoration: none;
+            color: $color-black;
+        }
+
+        .user{
+            display: flex;
+            gap: 2rem;
+        }
+    }
+}

@@ -1,1 +1,12 @@
 /** ------- MIXINS ------- **/
+@use'../abstracts/colors' as *;
+@use'../base/typography' as *;
+
+/* Primary button hero banner */
+@mixin button-primary{
+    background-color: $accent-gold;
+    font-size: $BtnPrimaryBanner;
+    font-family: $PoppinsBold;
+    height: 74px;
+    width: 222px;
+}

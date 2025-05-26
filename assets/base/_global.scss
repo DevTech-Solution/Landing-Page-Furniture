@@ -1,8 +1,14 @@
 /** ------- GLOBAL ------- **/
-@use'../abstracts/variables' as *;
 @use'../abstracts/mixins' as *;
 @use'../abstracts/colors' as *;
 
-body {
-    background-color: $backgroundTest;
+body{
+    margin: 0;
+    padding: 0;
+
+    .temporaire{
+    width: 1440px;
+    margin: 0 auto;
+    }
 }
+

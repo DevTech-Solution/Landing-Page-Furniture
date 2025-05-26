@@ -1,13 +1,14 @@
-/** ------- COLOR TEST ------- **/
-$backgroundTest : #000000a2;
-/** --------- COLORS --------- **/
+/** ---------------------- COLORS ---------------------- **/
 // Couleurs principales
 // Logo entreprise
 $color-black: #000000;
 // Texte bouton "Buy Now" et "Explore Now"
- $color-white: #FFFFFF;
+$color-white: #FFFFFF;
 
 // Couleurs background
+//Header
+$bg-header : #FFFFFF;
+
 // Fond des cartes dans la section Hero Banner
 $bg-card-hero: #FFF3E3;
 
@@ -30,3 +31,13 @@ $text-footer: #9F9F9F;
 $accent-gold: #B88E2F;
 // Prix barré
 $price-strikethrough: #B0B0B0;
+
+/** ---------------------- FONT SIZE ---------------------- **/
+$SizeLogo: 34px;
+$NavigationHeaderText: 16px;
+$TitleBanner: 52px;
+$DescriptionCardBanner: 18px;
+$BtnPrimaryBanner: 16px;
+$SectionBrowseTitle : 32px;
+$SectionBrowseDescripton : 20px;
+$SectionBrowseCardTxt : 24px;
