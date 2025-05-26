@@ -1,0 +1,50 @@
+/** ------- PRODUCTS CARDS ------- **/
+@use'../../abstracts/mixins' as *;
+@use'../../abstracts/colors' as *;
+@use'../../base/typography' as *;
+
+// Cards Products Section
+.cards-products{
+
+    .cards{
+        background-color: $bg-cards-productions;
+    
+        p:nth-child(2){
+            color: $text-title-secondary;
+            font-family: $PoppinsSemiBold;
+            font-size: $SectionProductsCardsTitle;
+        }
+
+        p:nth-child(2)::first-letter{
+            text-transform: uppercase;
+        }
+
+        p:nth-child(3){
+            color: $text-description-card;
+            font-family: $PoppinsMedium;
+            font-size: $SectionProductsCardsDescription;
+        }
+
+        p:nth-child(3)::first-letter{
+            text-transform: uppercase;
+        }
+
+        p:last-child{
+            color: $ColorTxtPriceCardsProduct;
+            font-family: $PoppinsSemiBold;
+            font-size: $SectionProductsCardsPrice;
+        }
+
+        p:last-child::first-letter{
+            text-transform: uppercase;
+        }
+
+        .price-products{
+            color: $price-strikethrough;
+            font-family: $PoppinsRegular;
+            font-size: $SectionProductsCardsPriceOffers;
+            padding-left: 2.5rem;
+            text-decoration: line-through;
+        }
+    }
+}

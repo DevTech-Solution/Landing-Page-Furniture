@@ -49,6 +49,44 @@ body .temporaire {
 }
 
 /** ------- CARDS ------- **/
+/** ------- ABSTRACTS ------- **/
+/** ------- MIXINS ------- **/
+/** ------- PRODUCTS CARDS ------- **/
+.cards-products .cards {
+  background-color: #F4F5F7;
+}
+.cards-products .cards p:nth-child(2) {
+  color: #3A3A3A;
+  font-family: "PoppinsSemiBold";
+  font-size: 24px;
+}
+.cards-products .cards p:nth-child(2)::first-letter {
+  text-transform: uppercase;
+}
+.cards-products .cards p:nth-child(3) {
+  color: #898989;
+  font-family: "PoppinsMedium";
+  font-size: 16px;
+}
+.cards-products .cards p:nth-child(3)::first-letter {
+  text-transform: uppercase;
+}
+.cards-products .cards p:last-child {
+  color: #3A3A3A;
+  font-family: "PoppinsSemiBold";
+  font-size: 20px;
+}
+.cards-products .cards p:last-child::first-letter {
+  text-transform: uppercase;
+}
+.cards-products .cards .price-products {
+  color: #B0B0B0;
+  font-family: "PoppinsRegular";
+  font-size: 16px;
+  padding-left: 2.5rem;
+  text-decoration: line-through;
+}
+
 /** ------- PAGE ------- **/
 /** ------- ABSTRACTS ------- **/
 /** ------- MIXINS ------- **/
@@ -95,7 +133,7 @@ body .temporaire {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 .category .title {
   display: flex;
@@ -138,6 +176,40 @@ body .temporaire {
 }
 .category .cards-category p::first-letter {
   text-transform: uppercase;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.products .container {
+  width: 1236px;
+}
+.products .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.products .title h2 {
+  color: #3A3A3A;
+  font-size: 40px;
+  font-family: "PoppinsBold";
+}
+.products .title h2::first-letter {
+  text-transform: uppercase;
+}
+.products .cards-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 /** ------- THEMES ------- **/
