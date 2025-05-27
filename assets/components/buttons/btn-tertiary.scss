@@ -1,0 +1,17 @@
+/** ------- BUTTON TERTIARY ------- **/
+@use'../../abstracts/mixins' as *;
+@use'../../abstracts/colors' as *;
+@use'../../base/typography' as *;
+
+
+.cta-explore{
+    background-color: $accent-gold;
+    width: 176px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    @include button-tertiary;
+    margin-top: 1rem;
+}

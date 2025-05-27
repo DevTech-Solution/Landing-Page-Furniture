@@ -5,8 +5,11 @@ $color-black: #000000;
 // Texte bouton "Buy Now" et "Explore Now"
 $color-white: #FFFFFF;
 
-// Background Btn More Explore 
+// Background Btn More Show 
 $btn-more : #FFFFFF;
+
+// Background Btn More Explore 
+$btn-explore : #FFFFFF;
 
 // Couleurs background
 //Header
@@ -41,6 +44,10 @@ $accent-gold: #B88E2F;
 // Prix barré
 $price-strikethrough: #B0B0B0;
 
+//Background Color Section Inspiration
+$backgroundColor-Inspiration :  #FCF8F3;
+
+
 /** ---------------------- FONT SIZE ---------------------- **/
 $SizeLogo: 34px;
 $NavigationHeaderText: 16px;
@@ -48,6 +55,7 @@ $TitleBanner: 52px;
 $DescriptionCardBanner: 18px;
 $BtnPrimaryBanner: 16px;
 $BtnSecondaryMore: 16px;
+$BtnTertiaryExplore: 16px;
 $SectionBrowseTitle : 32px;
 $SectionBrowseDescripton : 20px;
 $SectionBrowseCardTxt : 24px;
@@ -56,3 +64,5 @@ $SectionProductsCardsTitle : 24px;
 $SectionProductsCardsDescription : 16px;
 $SectionProductsCardsPrice : 20px;
 $SectionProductsCardsPriceOffers : 16px;
+$SectionInspirationTitle : 40px;
+$SectionInspirationDescription : 16px;

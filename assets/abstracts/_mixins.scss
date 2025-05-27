@@ -2,7 +2,7 @@
 @use'../abstracts/colors' as *;
 @use'../base/typography' as *;
 
-/* Primary button hero banner */
+/* Primary Button Hero Banner */
 @mixin button-primary{
     background-color: $accent-gold;
     font-size: $BtnPrimaryBanner;
@@ -11,7 +11,7 @@
     width: 222px;
 }
 
-/* Secondary button More explore */
+/* Secondary Button Show More */
 @mixin button-secondary{
     background-color: $btn-more;
     font-size: $BtnSecondaryMore;
@@ -21,6 +21,18 @@
     a{
         color: $accent-gold;
         text-decoration: none;
+        text-transform: capitalize;
+    }
+}
+
+/* Tertiary Button Explore More */
+@mixin button-tertiary{
+
+    a{
+        text-decoration: none;
+        font-family: $PoppinsSemiBold;
+        font-size: $BtnTertiaryExplore;
+        color: $btn-explore;
         text-transform: capitalize;
     }
 }

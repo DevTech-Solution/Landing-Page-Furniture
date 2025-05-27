@@ -52,7 +52,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 3rem;
+    padding-top: 4rem;
 
     .title{
         display: flex;
@@ -110,8 +110,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     
     .container{
         display: flex;
@@ -144,5 +144,51 @@
         align-items: center;
         padding-bottom: 2rem;
         gap: 2.5rem;
+    }
+}
+
+// CATEGORY INSPIRATION ROOMS
+.rooms{
+    display: flex;
+    flex-direction: row;
+    padding: 2.5rem;
+    background-color: $backgroundColor-Inspiration;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title{
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-right: 1rem;
+        
+    
+        h2{
+            color: $ColorTxtPriceCardsProduct;
+            font-size: $SectionInspirationTitle;
+            font-family: $PoppinsBold;
+        }
+
+        p{
+            color: $text-title-secondary;
+            font-size: $SectionInspirationDescription;
+            font-family: $PoppinsMedium;
+        }
+
+        p::first-letter{
+            text-transform: uppercase;
+        }
+    }
+
+    .pictures{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
     }
 }
