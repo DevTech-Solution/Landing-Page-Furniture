@@ -10,3 +10,17 @@
     height: 74px;
     width: 222px;
 }
+
+/* Secondary button More explore */
+@mixin button-secondary{
+    background-color: $btn-more;
+    font-size: $BtnSecondaryMore;
+    font-family: $PoppinsSemiBold;
+    border: solid 1px $accent-gold;
+
+    a{
+        color: $accent-gold;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+}

@@ -1,0 +1,15 @@
+/** ------- BUTTON SECONDARY ------- **/
+@use'../../abstracts/mixins' as *;
+@use'../../abstracts/colors' as *;
+@use'../../base/typography' as *;
+
+
+// BUTTON SECONDARY
+.cta-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 245px;
+    height: 48px;
+    @include button-secondary;
+}
