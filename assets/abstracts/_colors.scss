@@ -1,5 +1,7 @@
 /** ---------------------- COLORS ---------------------- **/
 // Couleurs principales
+$body-default : #FFFFFF;
+
 // Logo entreprise
 $color-black: #000000;
 // Texte bouton "Buy Now" et "Explore Now"
@@ -46,8 +48,6 @@ $price-strikethrough: #B0B0B0;
 
 //Background Color Section Inspiration
 $backgroundColor-Inspiration :  #FCF8F3;
-
-
 /** ---------------------- FONT SIZE ---------------------- **/
 $SizeLogo: 34px;
 $NavigationHeaderText: 16px;
@@ -66,3 +66,5 @@ $SectionProductsCardsPrice : 20px;
 $SectionProductsCardsPriceOffers : 16px;
 $SectionInspirationTitle : 40px;
 $SectionInspirationDescription : 16px;
+$SelectionFurnitureDescription : 20px;
+$SelectionFurnitureTitle : 40px;
