@@ -3,6 +3,12 @@
 🔗 [🌐 Live Demo – GitHub Pages](https://devtech-solution.github.io/Landing-Page-Furniture/)
 
 ---
+## Screenshot
+
+<p align="center">
+  <img src="./assets/images/readme/home.png" alt="Capture de la page d'accueil" title="Home page" width="800"/>
+</p>
+
 
 ## 🇬🇧 English
 
