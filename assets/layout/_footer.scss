@@ -1,0 +1,163 @@
+/** ------- FOOTER ------- **/
+@use'../abstracts/mixins' as *;
+@use'../abstracts/colors' as *;
+@use'../base/typography' as *;
+
+footer{
+    height: 505px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    .container{
+        border-top: solid 1px #00000031;
+        height: 419px;
+        width: 1240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        .row{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding: 1rem;
+        }
+    }
+
+    .text-box{
+        width: 285px;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+        
+        p:first-child{
+            color: $color-black;
+            font-size: $FooterLogo;
+            font-family: $PoppinsBold;
+        }
+
+        p:first-child::first-letter{
+            text-transform: uppercase;
+        }
+
+        p:last-child{
+            color: $text-footer;
+            font-size: $FooterAdress;
+            font-family: $PoppinsRegular;
+        }
+    }
+
+    .links{
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+
+        li{
+            list-style: none;
+            color: $text-footer;
+            font-family: $PoppinsMedium;
+            font-size: $FooterLinks;
+        }
+
+        li::first-letter{
+            text-transform: uppercase;
+        }
+
+        a{
+            text-decoration: none;
+            color: $FooterListeColor;
+            font-family: $PoppinsMedium;
+            font-size: $FooterLinks;
+        }
+    }
+
+    .help{
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+
+        li{
+            list-style: none;
+            color: $text-footer;
+            font-family: $PoppinsMedium;
+            font-size: $FooterLinks;
+        }
+
+        li::first-letter{
+            text-transform: uppercase;
+        }
+
+        a{
+            text-decoration: none;
+            color: $FooterListeColor;
+            font-family: $PoppinsMedium;
+            font-size: $FooterLinks;
+        }
+    }
+
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+
+        h3{
+            color: $text-footer;
+            font-family: $PoppinsMedium;
+            font-size: $FooterLinks;
+        }
+
+        h3::first-letter{
+            text-transform: uppercase;
+        }
+
+        form{
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+        }
+
+        input{
+            border: none;
+            border-bottom: solid 1px $FooterListeColor;
+            padding-bottom: 0.4rem;
+            width: 12rem;
+            text-transform: capitalize;
+
+        }
+
+        input::placeholder{
+            color: $text-footer;
+            font-family: $PoppinsRegular;
+            font-size: $FooterCtaForm;
+        }
+
+        button{
+            border: none;
+            border-bottom: solid 1px $FooterListeColor;
+            padding-bottom: 0.2rem;
+            background-color: $btnFormNewsletter;
+            text-transform: uppercase;
+            font-size: $FooterCtaForm;
+            font-family: $PoppinsMedium;
+            color: $btn-form;
+        }
+    }
+
+    .copyright{
+        padding-top: 2rem;
+        border-top: solid 1px #00000031;
+
+        .row-copyright{
+            padding-left: 4rem;
+        }
+
+        p{
+            color: $FooterListeColor;
+            font-family: $PoppinsRegular;
+            font-size: $FooterCopyright;
+        }
+    }
+}

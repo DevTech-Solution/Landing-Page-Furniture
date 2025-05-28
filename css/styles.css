@@ -1,6 +1,7 @@
 /** ------- ABSTRACTS ------- **/
 /** ---------------------- COLORS ---------------------- **/
 /** ---------------------- FONT SIZE ---------------------- **/
+/** ---------------------------------------------------- **/
 /** ------- FUNCTIONS ------- **/
 /** ------- ABSTRACTS ------- **/
 /** ------- MIXINS ------- **/
@@ -311,6 +312,7 @@ body .temporaire {
   justify-content: center;
   align-items: center;
   padding-top: 4rem;
+  padding-bottom: 4rem;
   width: 100%;
 }
 .furniture .title {
@@ -335,17 +337,17 @@ body .temporaire {
 .furniture .library {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 .furniture .library .container-pictures {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 .furniture .library .row {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 /** ------- THEMES ------- **/
@@ -400,6 +402,142 @@ header nav a {
 header nav .user {
   display: flex;
   gap: 2rem;
+}
+
+/** ------- ABSTRACTS ------- **/
+/** ------- MIXINS ------- **/
+/** ------- FOOTER ------- **/
+footer {
+  height: 505px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .container {
+  border-top: solid 1px rgba(0, 0, 0, 0.1921568627);
+  height: 419px;
+  width: 1240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+footer .container .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem;
+}
+footer .text-box {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+footer .text-box p:first-child {
+  color: #000000;
+  font-size: 24px;
+  font-family: "PoppinsBold";
+}
+footer .text-box p:first-child::first-letter {
+  text-transform: uppercase;
+}
+footer .text-box p:last-child {
+  color: #9F9F9F;
+  font-size: 16px;
+  font-family: "PoppinsRegular";
+}
+footer .links {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+footer .links li {
+  list-style: none;
+  color: #9F9F9F;
+  font-family: "PoppinsMedium";
+  font-size: 16px;
+}
+footer .links li::first-letter {
+  text-transform: uppercase;
+}
+footer .links a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "PoppinsMedium";
+  font-size: 16px;
+}
+footer .help {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+footer .help li {
+  list-style: none;
+  color: #9F9F9F;
+  font-family: "PoppinsMedium";
+  font-size: 16px;
+}
+footer .help li::first-letter {
+  text-transform: uppercase;
+}
+footer .help a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "PoppinsMedium";
+  font-size: 16px;
+}
+footer .newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+footer .newsletter h3 {
+  color: #9F9F9F;
+  font-family: "PoppinsMedium";
+  font-size: 16px;
+}
+footer .newsletter h3::first-letter {
+  text-transform: uppercase;
+}
+footer .newsletter form {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+footer .newsletter input {
+  border: none;
+  border-bottom: solid 1px #000000;
+  padding-bottom: 0.4rem;
+  width: 12rem;
+  text-transform: capitalize;
+}
+footer .newsletter input::placeholder {
+  color: #9F9F9F;
+  font-family: "PoppinsRegular";
+  font-size: 14px;
+}
+footer .newsletter button {
+  border: none;
+  border-bottom: solid 1px #000000;
+  padding-bottom: 0.2rem;
+  background-color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "PoppinsMedium";
+  color: #000000;
+}
+footer .copyright {
+  padding-top: 2rem;
+  border-top: solid 1px rgba(0, 0, 0, 0.1921568627);
+}
+footer .copyright .row-copyright {
+  padding-left: 4rem;
+}
+footer .copyright p {
+  color: #000000;
+  font-family: "PoppinsRegular";
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=styles.css.map */
