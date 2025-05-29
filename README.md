@@ -2,7 +2,15 @@
 
 🔗 [🌐 Live Demo – GitHub Pages](https://devtech-solution.github.io/Landing-Page-Furniture/)
 
----
+---  
+## Maquettte Figma  
+🔗 [🌐 Maquette Figma](https://github.com/DevTech-Solution/Landing-Page-Furniture/blob/main/documents/maquette.jpg)
+
+---  
+## Maquette DEV  
+🔗 [🌐 Maquette Dev](https://github.com/DevTech-Solution/Landing-Page-Furniture/blob/main/documents/schema_html.jpg)
+---  
+
 ## Screenshot
 
 <p align="center">
