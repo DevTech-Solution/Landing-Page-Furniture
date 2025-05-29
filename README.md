@@ -9,6 +9,7 @@
 ---  
 ## Maquette DEV  
 🔗 [🌐 Maquette Dev](https://github.com/DevTech-Solution/Landing-Page-Furniture/blob/main/documents/schema_html.jpg)
+
 ---  
 
 ## Screenshot
